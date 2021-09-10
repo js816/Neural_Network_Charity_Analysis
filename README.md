@@ -2,7 +2,7 @@
 
 # Overview of the Project
 
-Alphabet Soup is a non-profit organization that makes donations to various organizations around the world.  
+Alphabet Soup is a non-profit organization that makes donations to various groups around the world.  
 
 The purpose of this analysis is to build, train, and optimize a deep learning neural network model.  The model’s goal is to predict which organizations use Alphabet Soup’s donations successfully.
 
@@ -13,7 +13,7 @@ The purpose of this analysis is to build, train, and optimize a deep learning ne
 
 ### Model Prediction Target
 
-The model prediction target is the Is Successful column.  In our dataset, this column is 1 (True) for those organizations that successfully used the donations and 0 (False) for those organizations that did not use the donations successfully.
+The model prediction target is the Is Successful column.  In our dataset, this value is 1 (True) for those organizations that successfully used the donations and 0 (False) for those organizations that did not use the donations according to the established standards.
 
 ### Model Features
 
@@ -41,7 +41,7 @@ The initial dataset also contained two columns that were descriptors of the orga
 
 ## Compiling, Training, and Evaluating the Model
 
-In the initial phases of the project, two sequential hidden layers were used in an attempt to balance model performance and processing power.  The first hidden layer had 60 neurons and the second had 20.  The RELU activation function was initially used since it’s often a good initial choice.
+In the initial phases of the project, two sequential hidden layers were used in an attempt to balance model performance and processing power.  The first hidden layer had 60 neurons and the second had 20.  The rectified linear unit (ReLU) activation function was initially used since it’s often a balanced initial choice.
 
 The model was trained for 100 epochs.
 
